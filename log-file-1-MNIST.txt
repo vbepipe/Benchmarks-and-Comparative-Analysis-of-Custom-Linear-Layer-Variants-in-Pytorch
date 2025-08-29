@@ -1,0 +1,254 @@
+
+Seed number 505205
+LEARNING_RATE:  0.001
+DROPOUT_RATE:  0.0
+WEIGHT_DECAY_RATE:  0.0
+Neurons:  128
+
+Running experiments on dataset: MNIST
+Dataset: MNIST | Input dim: (1, 28, 28) | Classes: 10
+Train samples: 60000, Test samples: 10000
+
+-- Training model with standard layer --
+Epoch 1/30: Loss = 1.195625014
+Test Loss: 0.288645604 | Test Accuracy: 92.250000000%
+Epoch 2/30: Loss = 0.170820206
+Test Loss: 0.086330434 | Test Accuracy: 97.350000000%
+Epoch 3/30: Loss = 0.080586420
+Test Loss: 0.053907553 | Test Accuracy: 98.530000000%
+Average of last 3 losses is (0.482343880)
+Epoch 4/30: Loss = 0.053094665
+Test Loss: 0.046147013 | Test Accuracy: 98.860000000%
+Average of last 3 losses is (0.101500430)
+Epoch 5/30: Loss = 0.043845827
+Test Loss: 0.050442978 | Test Accuracy: 98.680000000%
+Average of last 3 losses is (0.059175637)
+Epoch 6/30: Loss = 0.033984734
+Test Loss: 0.049591701 | Test Accuracy: 98.760000000%
+Average of last 3 losses is (0.043641742)
+Epoch 7/30: Loss = 0.028041989
+Test Loss: 0.055677453 | Test Accuracy: 98.780000000%
+Average of last 3 losses is (0.035290850)
+Epoch 8/30: Loss = 0.025607798
+Test Loss: 0.039345444 | Test Accuracy: 98.930000000%
+Average of last 3 losses is (0.029211507)
+Epoch 9/30: Loss = 0.020137429
+Test Loss: 0.029790636 | Test Accuracy: 99.300000000%
+Average of last 3 losses is (0.024595739)
+Epoch 10/30: Loss = 0.017976818
+Test Loss: 0.032822667 | Test Accuracy: 99.360000000%
+Average of last 3 losses is (0.021240682)
+Epoch 11/30: Loss = 0.016515951
+Test Loss: 0.032191630 | Test Accuracy: 99.200000000%
+Average of last 3 losses is (0.018210066)
+Epoch 12/30: Loss = 0.013169392
+Test Loss: 0.030810108 | Test Accuracy: 99.310000000%
+Average of last 3 losses is (0.015887387)
+Epoch 13/30: Loss = 0.012011087
+Test Loss: 0.032270591 | Test Accuracy: 99.210000000%
+Average of last 3 losses is (0.013898810)
+Epoch 14/30: Loss = 0.010774565
+Test Loss: 0.034075984 | Test Accuracy: 99.260000000%
+Average of last 3 losses is (0.011985015)
+Epoch 15/30: Loss = 0.010818668
+Test Loss: 0.032916266 | Test Accuracy: 99.260000000%
+Average of last 3 losses is (0.011201440)
+Epoch 16/30: Loss = 0.012094583
+Test Loss: 0.039150343 | Test Accuracy: 99.130000000%
+Average of last 3 losses is (0.011229272)
+Epoch 17/30: Loss = 0.006771494
+Test Loss: 0.041705164 | Test Accuracy: 99.300000000%
+Breaking early as average of last avg_loss  (0.006771494) is below threshold of 0.01
+Test Loss: 0.0417 | Test Accuracy: 99.30%
+
+-- Training model with NewStandardLinear layer --
+Epoch 1/30: Loss = 0.745898224
+Test Loss: 0.161258668 | Test Accuracy: 95.230000000%
+Epoch 2/30: Loss = 0.128368980
+Test Loss: 0.079938461 | Test Accuracy: 97.770000000%
+Epoch 3/30: Loss = 0.069329068
+Test Loss: 0.055900016 | Test Accuracy: 98.470000000%
+Average of last 3 losses is (0.314532090)
+Epoch 4/30: Loss = 0.047761709
+Test Loss: 0.047642897 | Test Accuracy: 98.620000000%
+Average of last 3 losses is (0.081819919)
+Epoch 5/30: Loss = 0.039053917
+Test Loss: 0.035172010 | Test Accuracy: 98.940000000%
+Average of last 3 losses is (0.052048231)
+Epoch 6/30: Loss = 0.029568719
+Test Loss: 0.029305425 | Test Accuracy: 99.120000000%
+Average of last 3 losses is (0.038794782)
+Epoch 7/30: Loss = 0.023192568
+Test Loss: 0.034113007 | Test Accuracy: 98.970000000%
+Average of last 3 losses is (0.030605068)
+Epoch 8/30: Loss = 0.020648194
+Test Loss: 0.032178536 | Test Accuracy: 99.060000000%
+Average of last 3 losses is (0.024469827)
+Epoch 9/30: Loss = 0.016615334
+Test Loss: 0.031765633 | Test Accuracy: 99.070000000%
+Average of last 3 losses is (0.020152032)
+Epoch 10/30: Loss = 0.014760110
+Test Loss: 0.029184771 | Test Accuracy: 99.230000000%
+Average of last 3 losses is (0.017341213)
+Epoch 11/30: Loss = 0.014499212
+Test Loss: 0.041919584 | Test Accuracy: 98.890000000%
+Average of last 3 losses is (0.015291552)
+Epoch 12/30: Loss = 0.012623413
+Test Loss: 0.031202254 | Test Accuracy: 99.140000000%
+Average of last 3 losses is (0.013960912)
+Epoch 13/30: Loss = 0.011777744
+Test Loss: 0.026338954 | Test Accuracy: 99.240000000%
+Average of last 3 losses is (0.012966790)
+Epoch 14/30: Loss = 0.008986890
+Test Loss: 0.031498965 | Test Accuracy: 99.260000000%
+Breaking early as average of last avg_loss  (0.008986890) is below threshold of 0.01
+Test Loss: 0.0315 | Test Accuracy: 99.26%
+
+-- Training model with VinayakPatelFast layer --
+Epoch 1/30: Loss = 0.708224654
+Test Loss: 0.145726686 | Test Accuracy: 95.570000000%
+Epoch 2/30: Loss = 0.132100886
+Test Loss: 0.098904268 | Test Accuracy: 97.320000000%
+Epoch 3/30: Loss = 0.071687308
+Test Loss: 0.054703723 | Test Accuracy: 98.460000000%
+Average of last 3 losses is (0.304004283)
+Epoch 4/30: Loss = 0.052456755
+Test Loss: 0.044323093 | Test Accuracy: 98.730000000%
+Average of last 3 losses is (0.085414983)
+Epoch 5/30: Loss = 0.040466170
+Test Loss: 0.052258747 | Test Accuracy: 98.640000000%
+Average of last 3 losses is (0.054870078)
+Epoch 6/30: Loss = 0.029938367
+Test Loss: 0.041449596 | Test Accuracy: 98.700000000%
+Average of last 3 losses is (0.040953764)
+Epoch 7/30: Loss = 0.027520875
+Test Loss: 0.042872884 | Test Accuracy: 98.860000000%
+Average of last 3 losses is (0.032641804)
+Epoch 8/30: Loss = 0.019173542
+Test Loss: 0.034975904 | Test Accuracy: 98.920000000%
+Average of last 3 losses is (0.025544261)
+Epoch 9/30: Loss = 0.016435751
+Test Loss: 0.034078827 | Test Accuracy: 99.020000000%
+Average of last 3 losses is (0.021043389)
+Epoch 10/30: Loss = 0.015234388
+Test Loss: 0.039106795 | Test Accuracy: 98.890000000%
+Average of last 3 losses is (0.016947894)
+Epoch 11/30: Loss = 0.014311901
+Test Loss: 0.029347328 | Test Accuracy: 99.210000000%
+Average of last 3 losses is (0.015327347)
+Epoch 12/30: Loss = 0.013695970
+Test Loss: 0.031112405 | Test Accuracy: 99.100000000%
+Average of last 3 losses is (0.014414086)
+Epoch 13/30: Loss = 0.010407101
+Test Loss: 0.040268470 | Test Accuracy: 99.080000000%
+Average of last 3 losses is (0.012804990)
+Epoch 14/30: Loss = 0.012737292
+Test Loss: 0.032665140 | Test Accuracy: 99.240000000%
+Average of last 3 losses is (0.012280121)
+Epoch 15/30: Loss = 0.009582986
+Test Loss: 0.033745651 | Test Accuracy: 99.200000000%
+Breaking early as average of last avg_loss  (0.009582986) is below threshold of 0.01
+Test Loss: 0.0337 | Test Accuracy: 99.20%
+
+-- Training model with VinayakPatelFast2 layer --
+Epoch 1/30: Loss = 0.931879186
+Test Loss: 0.243681556 | Test Accuracy: 92.300000000%
+Epoch 2/30: Loss = 0.130143761
+Test Loss: 0.083861094 | Test Accuracy: 97.530000000%
+Epoch 3/30: Loss = 0.071526187
+Test Loss: 0.054112169 | Test Accuracy: 98.440000000%
+Average of last 3 losses is (0.377849711)
+Epoch 4/30: Loss = 0.049211007
+Test Loss: 0.044097485 | Test Accuracy: 98.830000000%
+Average of last 3 losses is (0.083626985)
+Epoch 5/30: Loss = 0.036779167
+Test Loss: 0.050868285 | Test Accuracy: 98.530000000%
+Average of last 3 losses is (0.052505453)
+Epoch 6/30: Loss = 0.027899917
+Test Loss: 0.045221422 | Test Accuracy: 98.740000000%
+Average of last 3 losses is (0.037963363)
+Epoch 7/30: Loss = 0.024009586
+Test Loss: 0.038904452 | Test Accuracy: 98.900000000%
+Average of last 3 losses is (0.029562890)
+Epoch 8/30: Loss = 0.021364491
+Test Loss: 0.037972939 | Test Accuracy: 99.100000000%
+Average of last 3 losses is (0.024424664)
+Epoch 9/30: Loss = 0.019077643
+Test Loss: 0.035539848 | Test Accuracy: 98.990000000%
+Average of last 3 losses is (0.021483907)
+Epoch 10/30: Loss = 0.014158597
+Test Loss: 0.037769358 | Test Accuracy: 98.950000000%
+Average of last 3 losses is (0.018200244)
+Epoch 11/30: Loss = 0.013236871
+Test Loss: 0.042435408 | Test Accuracy: 98.950000000%
+Average of last 3 losses is (0.015491037)
+Epoch 12/30: Loss = 0.012255823
+Test Loss: 0.031291681 | Test Accuracy: 99.290000000%
+Average of last 3 losses is (0.013217097)
+Epoch 13/30: Loss = 0.011724857
+Test Loss: 0.036106063 | Test Accuracy: 99.050000000%
+Average of last 3 losses is (0.012405851)
+Epoch 14/30: Loss = 0.010291266
+Test Loss: 0.029076342 | Test Accuracy: 99.200000000%
+Average of last 3 losses is (0.011423982)
+Epoch 15/30: Loss = 0.010048479
+Test Loss: 0.032192209 | Test Accuracy: 99.310000000%
+Average of last 3 losses is (0.010688201)
+Epoch 16/30: Loss = 0.007639766
+Test Loss: 0.032039117 | Test Accuracy: 99.200000000%
+Breaking early as average of last avg_loss  (0.007639766) is below threshold of 0.01
+Test Loss: 0.0320 | Test Accuracy: 99.20%
+
+-- Training model with VinayakPatelFast3 layer --
+Epoch 1/30: Loss = 1.024221487
+Test Loss: 0.277758978 | Test Accuracy: 91.540000000%
+Epoch 2/30: Loss = 0.154422017
+Test Loss: 0.088545634 | Test Accuracy: 97.430000000%
+Epoch 3/30: Loss = 0.068291761
+Test Loss: 0.066085302 | Test Accuracy: 97.980000000%
+Average of last 3 losses is (0.415645088)
+Epoch 4/30: Loss = 0.044037438
+Test Loss: 0.075865318 | Test Accuracy: 97.650000000%
+Average of last 3 losses is (0.088917072)
+Epoch 5/30: Loss = 0.035930082
+Test Loss: 0.035434598 | Test Accuracy: 98.930000000%
+Average of last 3 losses is (0.049419760)
+Epoch 6/30: Loss = 0.026762058
+Test Loss: 0.041269745 | Test Accuracy: 98.800000000%
+Average of last 3 losses is (0.035576526)
+Epoch 7/30: Loss = 0.024736884
+Test Loss: 0.034124971 | Test Accuracy: 99.040000000%
+Average of last 3 losses is (0.029143008)
+Epoch 8/30: Loss = 0.019562780
+Test Loss: 0.028964072 | Test Accuracy: 99.170000000%
+Average of last 3 losses is (0.023687241)
+Epoch 9/30: Loss = 0.015605036
+Test Loss: 0.034689223 | Test Accuracy: 99.100000000%
+Average of last 3 losses is (0.019968234)
+Epoch 10/30: Loss = 0.015899055
+Test Loss: 0.034699976 | Test Accuracy: 99.150000000%
+Average of last 3 losses is (0.017022290)
+Epoch 11/30: Loss = 0.012825114
+Test Loss: 0.048057884 | Test Accuracy: 98.820000000%
+Average of last 3 losses is (0.014776402)
+Epoch 12/30: Loss = 0.011619606
+Test Loss: 0.032885576 | Test Accuracy: 99.210000000%
+Average of last 3 losses is (0.013447925)
+Epoch 13/30: Loss = 0.010802680
+Test Loss: 0.036910814 | Test Accuracy: 99.110000000%
+Average of last 3 losses is (0.011749133)
+Epoch 14/30: Loss = 0.008930678
+Test Loss: 0.027474516 | Test Accuracy: 99.380000000%
+Breaking early as average of last avg_loss  (0.008930678) is below threshold of 0.01
+Test Loss: 0.0275 | Test Accuracy: 99.38%
+
+
+
+
+
+
+
+
+
+
+
