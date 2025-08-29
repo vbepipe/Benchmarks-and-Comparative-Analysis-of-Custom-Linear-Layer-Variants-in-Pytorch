@@ -1,0 +1,836 @@
+
+
+
+
+seed_number 199
+LEARNING_RATE:  0.001
+DROPOUT_RATE:  0.0
+WEIGHT_DECAY_RATE:  0.0
+Neurons:  128
+
+
+
+Running experiments on dataset: CIFAR100
+Original training samples: 50000
+Augmented training samples: 200000 (4x increase)
+Dataset: CIFAR100 | Input dim: (3, 32, 32) | Classes: 100
+Train samples: 200000, Test samples: 10000
+
+
+
+-- Training model with VinayakPatelStandardLinear layer --
+Epoch 1/180: Loss = 4.550787807 | Time: August 29, 2025 at 05:13:02 PM
+Test Loss: 4.605276346 | Test Accuracy: 1.0000%
+Epoch 2/180: Loss = 4.605021888 | Time: August 29, 2025 at 05:16:27 PM
+Test Loss: 4.602686882 | Test Accuracy: 1.2400%
+Epoch 3/180: Loss = 4.499541181 | Time: August 29, 2025 at 05:19:49 PM
+Test Loss: 4.451759815 | Test Accuracy: 1.7900%
+Average of last 3 losses is (4.551783625)
+Epoch 4/180: Loss = 4.429658693 | Time: August 29, 2025 at 05:23:09 PM
+Test Loss: 4.413095593 | Test Accuracy: 2.2100%
+Average of last 3 losses is (4.511407254)
+Epoch 5/180: Loss = 4.266337341 | Time: August 29, 2025 at 05:26:28 PM
+Test Loss: 4.189053416 | Test Accuracy: 4.2000%
+Average of last 3 losses is (4.398512405)
+Epoch 6/180: Loss = 4.111304265 | Time: August 29, 2025 at 05:29:45 PM
+Test Loss: 4.040755630 | Test Accuracy: 6.9900%
+Average of last 3 losses is (4.269100100)
+Epoch 7/180: Loss = 3.908832934 | Time: August 29, 2025 at 05:33:01 PM
+Test Loss: 3.797891915 | Test Accuracy: 10.4100%
+Average of last 3 losses is (4.095491514)
+Epoch 8/180: Loss = 3.717613444 | Time: August 29, 2025 at 05:36:20 PM
+Test Loss: 3.664538860 | Test Accuracy: 11.7700%
+Average of last 3 losses is (3.912583548)
+Epoch 9/180: Loss = 3.558148646 | Time: August 29, 2025 at 05:39:12 PM
+Test Loss: 3.515780151 | Test Accuracy: 14.1000%
+Average of last 3 losses is (3.728198342)
+Epoch 10/180: Loss = 3.411260280 | Time: August 29, 2025 at 05:42:03 PM
+Test Loss: 3.358140588 | Test Accuracy: 17.7400%
+Average of last 3 losses is (3.562340790)
+Epoch 11/180: Loss = 3.250836587 | Time: August 29, 2025 at 05:44:54 PM
+Test Loss: 3.212310672 | Test Accuracy: 19.7900%
+Average of last 3 losses is (3.406748504)
+Epoch 12/180: Loss = 3.107129806 | Time: August 29, 2025 at 05:47:45 PM
+Test Loss: 3.094241619 | Test Accuracy: 22.3500%
+Average of last 3 losses is (3.256408891)
+Epoch 13/180: Loss = 2.975305140 | Time: August 29, 2025 at 05:50:36 PM
+Test Loss: 2.995957613 | Test Accuracy: 24.6800%
+Average of last 3 losses is (3.111090511)
+Epoch 14/180: Loss = 2.852427009 | Time: August 29, 2025 at 05:53:27 PM
+Test Loss: 2.860029817 | Test Accuracy: 26.7500%
+Average of last 3 losses is (2.978287318)
+Epoch 15/180: Loss = 2.727818024 | Time: August 29, 2025 at 05:56:18 PM
+Test Loss: 2.775215983 | Test Accuracy: 29.1400%
+Average of last 3 losses is (2.851850058)
+Epoch 16/180: Loss = 2.617666492 | Time: August 29, 2025 at 05:59:08 PM
+Test Loss: 2.732123554 | Test Accuracy: 30.0100%
+Average of last 3 losses is (2.732637175)
+Epoch 17/180: Loss = 2.525618583 | Time: August 29, 2025 at 06:01:58 PM
+Test Loss: 2.632315338 | Test Accuracy: 32.5800%
+Average of last 3 losses is (2.623701033)
+Epoch 18/180: Loss = 2.429975715 | Time: August 29, 2025 at 06:04:49 PM
+Test Loss: 2.553059280 | Test Accuracy: 33.3800%
+Average of last 3 losses is (2.524420263)
+Epoch 19/180: Loss = 2.351217511 | Time: August 29, 2025 at 06:07:40 PM
+Test Loss: 2.503897607 | Test Accuracy: 34.8900%
+Average of last 3 losses is (2.435603937)
+Epoch 20/180: Loss = 2.294229555 | Time: August 29, 2025 at 06:10:31 PM
+Test Loss: 2.471258879 | Test Accuracy: 35.4400%
+Average of last 3 losses is (2.358474261)
+Epoch 21/180: Loss = 2.227463964 | Time: August 29, 2025 at 06:13:20 PM
+Test Loss: 2.465305090 | Test Accuracy: 35.7700%
+Average of last 3 losses is (2.290970343)
+Epoch 22/180: Loss = 2.184830296 | Time: August 29, 2025 at 06:16:09 PM
+Test Loss: 2.409879923 | Test Accuracy: 37.1400%
+Average of last 3 losses is (2.235507938)
+Epoch 23/180: Loss = 2.115122104 | Time: August 29, 2025 at 06:19:00 PM
+Test Loss: 2.387388110 | Test Accuracy: 37.1300%
+Average of last 3 losses is (2.175805454)
+Epoch 24/180: Loss = 2.064846647 | Time: August 29, 2025 at 06:21:51 PM
+Test Loss: 2.376391709 | Test Accuracy: 37.8400%
+Average of last 3 losses is (2.121599682)
+Epoch 25/180: Loss = 2.026246294 | Time: August 29, 2025 at 06:24:43 PM
+Test Loss: 2.352397442 | Test Accuracy: 38.8100%
+Average of last 3 losses is (2.068738348)
+Epoch 26/180: Loss = 1.989598399 | Time: August 29, 2025 at 06:27:35 PM
+Test Loss: 2.337703824 | Test Accuracy: 39.1300%
+Average of last 3 losses is (2.026897114)
+Epoch 27/180: Loss = 1.934547423 | Time: August 29, 2025 at 06:30:26 PM
+Test Loss: 2.329958081 | Test Accuracy: 38.9900%
+Average of last 3 losses is (1.983464039)
+Epoch 28/180: Loss = 1.899631350 | Time: August 29, 2025 at 06:33:16 PM
+Test Loss: 2.317900896 | Test Accuracy: 39.9600%
+Average of last 3 losses is (1.941259057)
+Epoch 29/180: Loss = 1.849645784 | Time: August 29, 2025 at 06:36:07 PM
+Test Loss: 2.302483916 | Test Accuracy: 40.5800%
+Average of last 3 losses is (1.894608186)
+Epoch 30/180: Loss = 1.804376230 | Time: August 29, 2025 at 06:38:59 PM
+Test Loss: 2.328222036 | Test Accuracy: 40.3400%
+Average of last 3 losses is (1.851217788)
+Epoch 31/180: Loss = 1.779938665 | Time: August 29, 2025 at 06:41:50 PM
+Test Loss: 2.317012966 | Test Accuracy: 40.5800%
+Average of last 3 losses is (1.811320226)
+Epoch 32/180: Loss = 1.737793829 | Time: August 29, 2025 at 06:44:42 PM
+Test Loss: 2.319559097 | Test Accuracy: 41.0100%
+Average of last 3 losses is (1.774036241)
+Epoch 33/180: Loss = 1.699511299 | Time: August 29, 2025 at 06:47:33 PM
+Test Loss: 2.299478054 | Test Accuracy: 41.1900%
+Average of last 3 losses is (1.739081264)
+Epoch 34/180: Loss = 1.671633874 | Time: August 29, 2025 at 06:50:23 PM
+Test Loss: 2.293456614 | Test Accuracy: 41.7400%
+Average of last 3 losses is (1.702979667)
+Epoch 35/180: Loss = 1.627698031 | Time: August 29, 2025 at 06:53:14 PM
+Test Loss: 2.355998516 | Test Accuracy: 40.6300%
+Average of last 3 losses is (1.666281068)
+Epoch 36/180: Loss = 1.594942926 | Time: August 29, 2025 at 06:57:49 PM
+Test Loss: 2.314534187 | Test Accuracy: 41.4800%
+Average of last 3 losses is (1.631424944)
+Epoch 37/180: Loss = 1.560860394 | Time: August 29, 2025 at 07:05:11 PM
+Test Loss: 2.345727026 | Test Accuracy: 41.5000%
+Average of last 3 losses is (1.594500450)
+Epoch 38/180: Loss = 1.535951895 | Time: August 29, 2025 at 07:08:50 PM
+Test Loss: 2.338990271 | Test Accuracy: 42.0500%
+Average of last 3 losses is (1.563918405)
+Epoch 39/180: Loss = 1.503977679 | Time: August 29, 2025 at 07:12:09 PM
+Test Loss: 2.341314971 | Test Accuracy: 41.8400%
+Average of last 3 losses is (1.533596656)
+Epoch 40/180: Loss = 1.459135720 | Time: August 29, 2025 at 07:15:28 PM
+Test Loss: 2.390251219 | Test Accuracy: 41.4700%
+Average of last 3 losses is (1.499688431)
+Epoch 41/180: Loss = 1.431721818 | Time: August 29, 2025 at 07:18:46 PM
+Test Loss: 2.403950512 | Test Accuracy: 42.0200%
+Average of last 3 losses is (1.464945072)
+Epoch 42/180: Loss = 1.408969384 | Time: August 29, 2025 at 07:22:01 PM
+Test Loss: 2.408686578 | Test Accuracy: 41.7300%
+Average of last 3 losses is (1.433275641)
+Epoch 43/180: Loss = 1.373100674 | Time: August 29, 2025 at 07:25:17 PM
+Test Loss: 2.425397217 | Test Accuracy: 41.8000%
+Average of last 3 losses is (1.404597292)
+Epoch 44/180: Loss = 1.352952777 | Time: August 29, 2025 at 07:28:33 PM
+Test Loss: 2.441440523 | Test Accuracy: 41.7600%
+Average of last 3 losses is (1.378340945)
+Epoch 45/180: Loss = 1.306816678 | Time: August 29, 2025 at 07:31:48 PM
+Test Loss: 2.476015568 | Test Accuracy: 41.7900%
+Average of last 3 losses is (1.344290043)
+Epoch 46/180: Loss = 1.282358994 | Time: August 29, 2025 at 07:35:04 PM
+Test Loss: 2.510835707 | Test Accuracy: 41.3200%
+Average of last 3 losses is (1.314042816)
+Epoch 47/180: Loss = 1.256644027 | Time: August 29, 2025 at 07:38:18 PM
+Test Loss: 2.498743773 | Test Accuracy: 41.8900%
+Average of last 3 losses is (1.281939899)
+Epoch 48/180: Loss = 1.245279136 | Time: August 29, 2025 at 07:41:35 PM
+Test Loss: 2.525641024 | Test Accuracy: 42.0500%
+Average of last 3 losses is (1.261427386)
+Epoch 49/180: Loss = 1.205609742 | Time: August 29, 2025 at 07:44:51 PM
+Test Loss: 2.552880704 | Test Accuracy: 41.4300%
+Average of last 3 losses is (1.235844302)
+Epoch 50/180: Loss = 1.177989629 | Time: August 29, 2025 at 07:48:07 PM
+Test Loss: 2.590273261 | Test Accuracy: 40.9600%
+Average of last 3 losses is (1.209626169)
+Epoch 51/180: Loss = 1.149292915 | Time: August 29, 2025 at 07:51:23 PM
+Test Loss: 2.635047972 | Test Accuracy: 41.4100%
+Average of last 3 losses is (1.177630762)
+Epoch 52/180: Loss = 1.123488717 | Time: August 29, 2025 at 07:54:43 PM
+Test Loss: 2.673514545 | Test Accuracy: 40.9600%
+Average of last 3 losses is (1.150257087)
+Epoch 53/180: Loss = 1.097673686 | Time: August 29, 2025 at 07:57:59 PM
+Test Loss: 2.684613764 | Test Accuracy: 41.8700%
+Average of last 3 losses is (1.123485106)
+Epoch 54/180: Loss = 1.077935069 | Time: August 29, 2025 at 08:01:15 PM
+Test Loss: 2.719848931 | Test Accuracy: 41.5900%
+Average of last 3 losses is (1.099699157)
+Epoch 55/180: Loss = 1.069224099 | Time: August 29, 2025 at 08:04:31 PM
+Test Loss: 2.760867655 | Test Accuracy: 41.2600%
+Average of last 3 losses is (1.081610951)
+Epoch 56/180: Loss = 1.043113706 | Time: August 29, 2025 at 08:07:50 PM
+Test Loss: 2.769831240 | Test Accuracy: 40.7800%
+Average of last 3 losses is (1.063424291)
+Epoch 57/180: Loss = 1.013992974 | Time: August 29, 2025 at 08:11:09 PM
+Test Loss: 2.815809011 | Test Accuracy: 40.7000%
+Average of last 3 losses is (1.042110260)
+Epoch 58/180: Loss = 0.985603810 | Time: August 29, 2025 at 08:14:25 PM
+Test Loss: 2.853997648 | Test Accuracy: 40.2900%
+Average of last 3 losses is (1.014236830)
+Epoch 59/180: Loss = 0.976998444 | Time: August 29, 2025 at 08:17:41 PM
+Test Loss: 2.858153045 | Test Accuracy: 41.2300%
+Average of last 3 losses is (0.992198409)
+Epoch 60/180: Loss = 0.945865133 | Time: August 29, 2025 at 08:20:57 PM
+Test Loss: 2.946972549 | Test Accuracy: 40.5400%
+Average of last 3 losses is (0.969489129)
+Epoch 61/180: Loss = 0.922998333 | Time: August 29, 2025 at 08:24:13 PM
+Test Loss: 3.005396903 | Test Accuracy: 40.8200%
+Average of last 3 losses is (0.948620637)
+Epoch 62/180: Loss = 0.905484056 | Time: August 29, 2025 at 08:27:30 PM
+Test Loss: 2.994338572 | Test Accuracy: 41.0200%
+Average of last 3 losses is (0.924782507)
+Epoch 63/180: Loss = 0.870011725 | Time: August 29, 2025 at 08:30:47 PM
+Test Loss: 3.125390053 | Test Accuracy: 40.6800%
+Average of last 3 losses is (0.899498038)
+
+
+
+
+
+##################################################################
+
+
+
+
+seed_number 199
+LEARNING_RATE:  0.001
+DROPOUT_RATE:  0.0
+WEIGHT_DECAY_RATE:  0.0
+Neurons:  128
+
+
+
+Running experiments on dataset: CIFAR100
+Original training samples: 50000
+Augmented training samples: 200000 (4x increase)
+Dataset: CIFAR100 | Input dim: (3, 32, 32) | Classes: 100
+Train samples: 200000, Test samples: 10000
+
+
+
+-- Training model with standard layer --
+Epoch 1/180: Loss = 4.406616348 | Time: August 29, 2025 at 01:10:27 PM
+Test Loss: 4.310745358 | Test Accuracy: 3.2400%
+Epoch 2/180: Loss = 4.263542330 | Time: August 29, 2025 at 01:13:28 PM
+Test Loss: 4.198888063 | Test Accuracy: 4.5200%
+Epoch 3/180: Loss = 4.109473789 | Time: August 29, 2025 at 01:16:49 PM
+Test Loss: 4.024908900 | Test Accuracy: 6.4100%
+Average of last 3 losses is (4.259877489)
+Epoch 4/180: Loss = 3.893242377 | Time: August 29, 2025 at 01:20:08 PM
+Test Loss: 3.793672383 | Test Accuracy: 10.0200%
+Average of last 3 losses is (4.088752832)
+Epoch 5/180: Loss = 3.686653861 | Time: August 29, 2025 at 01:23:28 PM
+Test Loss: 3.608402491 | Test Accuracy: 12.6300%
+Average of last 3 losses is (3.896456676)
+Epoch 6/180: Loss = 3.505837715 | Time: August 29, 2025 at 01:26:48 PM
+Test Loss: 3.459013283 | Test Accuracy: 15.1300%
+Average of last 3 losses is (3.695244651)
+Epoch 7/180: Loss = 3.314440617 | Time: August 29, 2025 at 01:30:06 PM
+Test Loss: 3.273605108 | Test Accuracy: 19.1400%
+Average of last 3 losses is (3.502310731)
+Epoch 8/180: Loss = 3.164048204 | Time: August 29, 2025 at 01:33:24 PM
+Test Loss: 3.146908462 | Test Accuracy: 21.6000%
+Average of last 3 losses is (3.328108845)
+Epoch 9/180: Loss = 3.031835327 | Time: August 29, 2025 at 01:36:42 PM
+Test Loss: 3.046181023 | Test Accuracy: 24.1100%
+Average of last 3 losses is (3.170108049)
+Epoch 10/180: Loss = 2.898299670 | Time: August 29, 2025 at 01:39:59 PM
+Test Loss: 2.913978219 | Test Accuracy: 27.0600%
+Average of last 3 losses is (3.031394400)
+Epoch 11/180: Loss = 2.773468256 | Time: August 29, 2025 at 01:43:20 PM
+Test Loss: 2.877059698 | Test Accuracy: 27.5900%
+Average of last 3 losses is (2.901201084)
+Epoch 12/180: Loss = 2.641517305 | Time: August 29, 2025 at 01:50:32 PM
+Test Loss: 2.729032934 | Test Accuracy: 30.2500%
+Average of last 3 losses is (2.771095077)
+Epoch 13/180: Loss = 2.528643742 | Time: August 29, 2025 at 01:53:55 PM
+Test Loss: 2.655411005 | Test Accuracy: 32.1000%
+Average of last 3 losses is (2.647876435)
+Epoch 14/180: Loss = 2.425349608 | Time: August 29, 2025 at 01:57:14 PM
+Test Loss: 2.565161109 | Test Accuracy: 33.5000%
+Average of last 3 losses is (2.531836885)
+Epoch 15/180: Loss = 2.329652029 | Time: August 29, 2025 at 02:00:35 PM
+Test Loss: 2.513558626 | Test Accuracy: 34.7200%
+Average of last 3 losses is (2.427881793)
+Epoch 16/180: Loss = 2.254526266 | Time: August 29, 2025 at 02:04:00 PM
+Test Loss: 2.496933699 | Test Accuracy: 35.7400%
+Average of last 3 losses is (2.336509301)
+Epoch 17/180: Loss = 2.183023527 | Time: August 29, 2025 at 02:07:22 PM
+Test Loss: 2.460932076 | Test Accuracy: 36.4800%
+Average of last 3 losses is (2.255733941)
+Epoch 18/180: Loss = 2.112395808 | Time: August 29, 2025 at 02:10:45 PM
+Test Loss: 2.417043149 | Test Accuracy: 37.2100%
+Average of last 3 losses is (2.183315201)
+Epoch 19/180: Loss = 2.039258385 | Time: August 29, 2025 at 02:14:06 PM
+Test Loss: 2.413270831 | Test Accuracy: 37.1800%
+Average of last 3 losses is (2.111559240)
+Epoch 20/180: Loss = 1.974745454 | Time: August 29, 2025 at 02:17:27 PM
+Test Loss: 2.398417115 | Test Accuracy: 38.1100%
+Average of last 3 losses is (2.042133216)
+Epoch 21/180: Loss = 1.915959428 | Time: August 29, 2025 at 02:20:45 PM
+Test Loss: 2.399083018 | Test Accuracy: 37.7100%
+Average of last 3 losses is (1.976654422)
+Epoch 22/180: Loss = 1.866563159 | Time: August 29, 2025 at 02:24:06 PM
+Test Loss: 2.411904693 | Test Accuracy: 38.2100%
+Average of last 3 losses is (1.919089347)
+Epoch 23/180: Loss = 1.801059674 | Time: August 29, 2025 at 02:27:28 PM
+Test Loss: 2.362758756 | Test Accuracy: 39.4500%
+Average of last 3 losses is (1.861194087)
+Epoch 24/180: Loss = 1.744604769 | Time: August 29, 2025 at 02:30:51 PM
+Test Loss: 2.394987643 | Test Accuracy: 39.0400%
+Average of last 3 losses is (1.804075867)
+Epoch 25/180: Loss = 1.693384792 | Time: August 29, 2025 at 02:34:15 PM
+Test Loss: 2.418848813 | Test Accuracy: 39.5200%
+Average of last 3 losses is (1.746349745)
+Epoch 26/180: Loss = 1.646164627 | Time: August 29, 2025 at 02:37:34 PM
+Test Loss: 2.446516514 | Test Accuracy: 39.1700%
+Average of last 3 losses is (1.694718063)
+Epoch 27/180: Loss = 1.600275230 | Time: August 29, 2025 at 02:40:54 PM
+Test Loss: 2.416015625 | Test Accuracy: 39.7400%
+Average of last 3 losses is (1.646608217)
+Epoch 28/180: Loss = 1.544351389 | Time: August 29, 2025 at 02:44:12 PM
+Test Loss: 2.477349162 | Test Accuracy: 39.3100%
+Average of last 3 losses is (1.596930415)
+Epoch 29/180: Loss = 1.495248014 | Time: August 29, 2025 at 02:47:32 PM
+Test Loss: 2.470689833 | Test Accuracy: 39.8600%
+Average of last 3 losses is (1.546624878)
+Epoch 30/180: Loss = 1.450852178 | Time: August 29, 2025 at 02:50:53 PM
+Test Loss: 2.510836899 | Test Accuracy: 40.0400%
+Average of last 3 losses is (1.496817193)
+Epoch 31/180: Loss = 1.413085113 | Time: August 29, 2025 at 02:54:14 PM
+Test Loss: 2.569994569 | Test Accuracy: 39.5800%
+Average of last 3 losses is (1.453061768)
+Epoch 32/180: Loss = 1.368123002 | Time: August 29, 2025 at 02:57:37 PM
+Test Loss: 2.617654622 | Test Accuracy: 39.7100%
+Average of last 3 losses is (1.410686765)
+Epoch 33/180: Loss = 1.316575398 | Time: August 29, 2025 at 03:00:59 PM
+Test Loss: 2.657229662 | Test Accuracy: 40.2800%
+Average of last 3 losses is (1.365927838)
+Epoch 34/180: Loss = 1.284038258 | Time: August 29, 2025 at 03:04:21 PM
+Test Loss: 2.651900589 | Test Accuracy: 40.1500%
+Average of last 3 losses is (1.322912219)
+Epoch 35/180: Loss = 1.235616337 | Time: August 29, 2025 at 03:07:43 PM
+Test Loss: 2.733567417 | Test Accuracy: 39.0800%
+Average of last 3 losses is (1.278743331)
+Epoch 36/180: Loss = 1.213174643 | Time: August 29, 2025 at 03:11:06 PM
+Test Loss: 2.753987610 | Test Accuracy: 40.5300%
+Average of last 3 losses is (1.244276412)
+Epoch 37/180: Loss = 1.158033654 | Time: August 29, 2025 at 03:14:29 PM
+Test Loss: 2.819356918 | Test Accuracy: 39.8100%
+Average of last 3 losses is (1.202274878)
+Epoch 38/180: Loss = 1.136507154 | Time: August 29, 2025 at 03:17:50 PM
+Test Loss: 2.863634288 | Test Accuracy: 39.9200%
+Average of last 3 losses is (1.169238483)
+Epoch 39/180: Loss = 1.100425089 | Time: August 29, 2025 at 03:21:11 PM
+Test Loss: 2.925057471 | Test Accuracy: 40.0600%
+Average of last 3 losses is (1.131655299)
+Epoch 40/180: Loss = 1.071672104 | Time: August 29, 2025 at 03:24:35 PM
+Test Loss: 2.958677053 | Test Accuracy: 39.4100%
+Average of last 3 losses is (1.102868116)
+Epoch 41/180: Loss = 1.033694342 | Time: August 29, 2025 at 03:29:52 PM
+Test Loss: 3.081899762 | Test Accuracy: 40.0300%
+Average of last 3 losses is (1.068597178)
+Epoch 42/180: Loss = 1.007023904 | Time: August 29, 2025 at 03:33:16 PM
+Test Loss: 3.134828746 | Test Accuracy: 39.9600%
+Average of last 3 losses is (1.037463450)
+Epoch 43/180: Loss = 0.961353019 | Time: August 29, 2025 at 03:36:37 PM
+Test Loss: 3.275335610 | Test Accuracy: 38.8700%
+Average of last 3 losses is (1.000690422)
+Epoch 44/180: Loss = 0.945468506 | Time: August 29, 2025 at 03:39:59 PM
+Test Loss: 3.285494804 | Test Accuracy: 39.1400%
+Average of last 3 losses is (0.971281810)
+Epoch 45/180: Loss = 0.909486477 | Time: August 29, 2025 at 03:43:21 PM
+Test Loss: 3.381467640 | Test Accuracy: 39.3000%
+Average of last 3 losses is (0.938769334)
+Epoch 46/180: Loss = 0.881921179 | Time: August 29, 2025 at 03:46:42 PM
+Test Loss: 3.379309952 | Test Accuracy: 39.2900%
+Average of last 3 losses is (0.912292054)
+Epoch 47/180: Loss = 0.871330357 | Time: August 29, 2025 at 03:50:05 PM
+Test Loss: 3.337469697 | Test Accuracy: 38.6400%
+Average of last 3 losses is (0.887579338)
+Epoch 48/180: Loss = 0.829987399 | Time: August 29, 2025 at 03:53:27 PM
+Test Loss: 3.722556293 | Test Accuracy: 38.9100%
+Average of last 3 losses is (0.861079645)
+Epoch 49/180: Loss = 0.794098214 | Time: August 29, 2025 at 03:59:50 PM
+Test Loss: 3.670581758 | Test Accuracy: 38.8500%
+Average of last 3 losses is (0.831805324)
+Epoch 50/180: Loss = 0.778771583 | Time: August 29, 2025 at 04:03:12 PM
+Test Loss: 3.919586420 | Test Accuracy: 38.4900%
+Average of last 3 losses is (0.800952399)
+Epoch 51/180: Loss = 0.763687092 | Time: August 29, 2025 at 04:06:52 PM
+Test Loss: 3.914139569 | Test Accuracy: 38.8800%
+Average of last 3 losses is (0.778852296)
+Epoch 52/180: Loss = 0.743680616 | Time: August 29, 2025 at 04:10:48 PM
+Test Loss: 3.969443798 | Test Accuracy: 38.9700%
+Average of last 3 losses is (0.762046430)
+Epoch 53/180: Loss = 0.707689702 | Time: August 29, 2025 at 04:13:46 PM
+Test Loss: 4.102799773 | Test Accuracy: 38.7300%
+Average of last 3 losses is (0.738352470)
+Epoch 54/180: Loss = 0.694465681 | Time: August 29, 2025 at 04:17:13 PM
+Test Loss: 4.117477953 | Test Accuracy: 38.2600%
+Average of last 3 losses is (0.715278666)
+Epoch 55/180: Loss = 0.674905435 | Time: August 29, 2025 at 04:21:17 PM
+Test Loss: 4.358291745 | Test Accuracy: 37.8100%
+Average of last 3 losses is (0.692353606)
+Epoch 56/180: Loss = 0.657867909 | Time: August 29, 2025 at 04:24:35 PM
+Test Loss: 4.464980483 | Test Accuracy: 38.1600%
+Average of last 3 losses is (0.675746342)
+Epoch 57/180: Loss = 0.633197711 | Time: August 29, 2025 at 04:27:51 PM
+Test Loss: 4.607868910 | Test Accuracy: 38.2000%
+Average of last 3 losses is (0.655323685)
+Epoch 58/180: Loss = 0.605223366 | Time: August 29, 2025 at 04:31:08 PM
+Test Loss: 4.758870482 | Test Accuracy: 38.0400%
+Average of last 3 losses is (0.632096329)
+Epoch 59/180: Loss = 0.642003509 | Time: August 29, 2025 at 04:34:25 PM
+Test Loss: 4.412307024 | Test Accuracy: 37.7000%
+Average of last 3 losses is (0.626808196)
+Epoch 60/180: Loss = 0.601213239 | Time: August 29, 2025 at 04:37:41 PM
+Test Loss: 4.601523042 | Test Accuracy: 37.6300%
+Average of last 3 losses is (0.616146705)
+Epoch 61/180: Loss = 0.576911605 | Time: August 29, 2025 at 04:40:58 PM
+Test Loss: 4.596213579 | Test Accuracy: 37.9900%
+Average of last 3 losses is (0.606709451)
+Epoch 62/180: Loss = 0.533619264 | Time: August 29, 2025 at 04:44:15 PM
+Test Loss: 5.015013456 | Test Accuracy: 38.0100%
+Average of last 3 losses is (0.570581369)
+Epoch 63/180: Loss = 0.529372174 | Time: August 29, 2025 at 04:47:35 PM
+Test Loss: 5.087653399 | Test Accuracy: 37.4600%
+Average of last 3 losses is (0.546634348)
+
+
+
+
+
+##################################################################
+
+
+
+
+
+Seed number 98782
+LEARNING_RATE:  0.001
+DROPOUT_RATE:  0.0
+WEIGHT_DECAY_RATE:  0.0
+Neurons:  128
+
+
+Running experiments on dataset: MNIST
+Dataset: MNIST | Input dim: (1, 28, 28) | Classes: 10
+Train samples: 60000, Test samples: 10000
+
+
+-- Training model with VinayakPatelStandardLinear layer --
+Epoch 1/30: Loss = 0.955432443
+Test Loss: 0.209711827 | Test Accuracy: 94.240000000%
+Epoch 2/30: Loss = 0.136855319
+Test Loss: 0.086435717 | Test Accuracy: 97.510000000%
+Epoch 3/30: Loss = 0.072311849
+Test Loss: 0.056931036 | Test Accuracy: 98.370000000%
+Average of last 3 losses is (0.388199870)
+Epoch 4/30: Loss = 0.047408399
+Test Loss: 0.036980222 | Test Accuracy: 98.940000000%
+Average of last 3 losses is (0.085525189)
+Epoch 5/30: Loss = 0.037788006
+Test Loss: 0.065538093 | Test Accuracy: 98.060000000%
+Average of last 3 losses is (0.052502751)
+Epoch 6/30: Loss = 0.027989006
+Test Loss: 0.038983816 | Test Accuracy: 98.810000000%
+Average of last 3 losses is (0.037728471)
+Epoch 7/30: Loss = 0.022732675
+Test Loss: 0.033299750 | Test Accuracy: 99.070000000%
+Average of last 3 losses is (0.029503229)
+Epoch 8/30: Loss = 0.020193817
+Test Loss: 0.036884589 | Test Accuracy: 98.960000000%
+Average of last 3 losses is (0.023638499)
+Epoch 9/30: Loss = 0.017328313
+Test Loss: 0.032109864 | Test Accuracy: 99.190000000%
+Average of last 3 losses is (0.020084935)
+Epoch 10/30: Loss = 0.017264582
+Test Loss: 0.025899374 | Test Accuracy: 99.220000000%
+Average of last 3 losses is (0.018262237)
+Epoch 11/30: Loss = 0.014512303
+Test Loss: 0.035920265 | Test Accuracy: 99.110000000%
+Average of last 3 losses is (0.016368399)
+Epoch 12/30: Loss = 0.012487339
+Test Loss: 0.034947149 | Test Accuracy: 99.020000000%
+Average of last 3 losses is (0.014754741)
+Epoch 13/30: Loss = 0.010425634
+Test Loss: 0.028641224 | Test Accuracy: 99.290000000%
+Average of last 3 losses is (0.012475092)
+Epoch 14/30: Loss = 0.011991551
+Test Loss: 0.030055725 | Test Accuracy: 99.160000000%
+Average of last 3 losses is (0.011634841)
+Epoch 15/30: Loss = 0.008603176
+Test Loss: 0.032005388 | Test Accuracy: 99.260000000%
+Average of last 3 losses is (0.010340120)
+Epoch 16/30: Loss = 0.008737302
+Test Loss: 0.036250582 | Test Accuracy: 99.070000000%
+Average of last 3 losses is (0.009777343)
+Epoch 17/30: Loss = 0.008956216
+Test Loss: 0.036117528 | Test Accuracy: 99.130000000%
+Average of last 3 losses is (0.008765565)
+Epoch 18/30: Loss = 0.007221600
+Test Loss: 0.030351736 | Test Accuracy: 99.340000000%
+Average of last 3 losses is (0.008305039)
+Epoch 19/30: Loss = 0.007757113
+Test Loss: 0.035611097 | Test Accuracy: 99.140000000%
+Average of last 3 losses is (0.007978310)
+Epoch 20/30: Loss = 0.006894165
+Test Loss: 0.032630119 | Test Accuracy: 99.280000000%
+Average of last 3 losses is (0.007290959)
+Epoch 21/30: Loss = 0.005373852
+Test Loss: 0.031649108 | Test Accuracy: 99.290000000%
+Average of last 3 losses is (0.006675044)
+Epoch 22/30: Loss = 0.006080800
+Test Loss: 0.037731065 | Test Accuracy: 99.030000000%
+Average of last 3 losses is (0.006116273)
+Epoch 23/30: Loss = 0.004939602
+Test Loss: 0.028962108 | Test Accuracy: 99.390000000%
+Average of last 3 losses is (0.005464751)
+Epoch 24/30: Loss = 0.003946713
+Test Loss: 0.068594276 | Test Accuracy: 98.450000000%
+Average of last 3 losses is (0.004989038)
+Epoch 25/30: Loss = 0.006927033
+Test Loss: 0.031918950 | Test Accuracy: 99.370000000%
+Average of last 3 losses is (0.005271116)
+Epoch 26/30: Loss = 0.004484532
+Test Loss: 0.050786644 | Test Accuracy: 98.880000000%
+Average of last 3 losses is (0.005119426)
+Epoch 27/30: Loss = 0.005527484
+Test Loss: 0.047434362 | Test Accuracy: 99.100000000%
+Average of last 3 losses is (0.005646350)
+Epoch 28/30: Loss = 0.004956531
+Test Loss: 0.037731595 | Test Accuracy: 99.170000000%
+Average of last 3 losses is (0.004989516)
+Epoch 29/30: Loss = 0.002958285
+Test Loss: 0.039388757 | Test Accuracy: 99.260000000%
+Average of last 3 losses is (0.004480767)
+Epoch 30/30: Loss = 0.004682750
+Test Loss: 0.029791970 | Test Accuracy: 99.300000000%
+Average of last 3 losses is (0.004199189)
+Test Loss: 0.0298 | Test Accuracy: 99.30%
+
+
+
+-- Training model with standard layer --
+Epoch 1/30: Loss = 0.955464386
+Test Loss: 0.192506880 | Test Accuracy: 94.600000000%
+Epoch 2/30: Loss = 0.129616861
+Test Loss: 0.080198991 | Test Accuracy: 97.970000000%
+Epoch 3/30: Loss = 0.065942191
+Test Loss: 0.053033877 | Test Accuracy: 98.460000000%
+Average of last 3 losses is (0.383674479)
+Epoch 4/30: Loss = 0.044411899
+Test Loss: 0.048883571 | Test Accuracy: 98.720000000%
+Average of last 3 losses is (0.079990317)
+Epoch 5/30: Loss = 0.034162731
+Test Loss: 0.038871408 | Test Accuracy: 99.040000000%
+Average of last 3 losses is (0.048172274)
+Epoch 6/30: Loss = 0.029017471
+Test Loss: 0.035971399 | Test Accuracy: 98.980000000%
+Average of last 3 losses is (0.035864034)
+Epoch 7/30: Loss = 0.023342014
+Test Loss: 0.042381593 | Test Accuracy: 98.830000000%
+Average of last 3 losses is (0.028840739)
+Epoch 8/30: Loss = 0.019171716
+Test Loss: 0.033903834 | Test Accuracy: 99.030000000%
+Average of last 3 losses is (0.023843734)
+Epoch 9/30: Loss = 0.017843954
+Test Loss: 0.033998854 | Test Accuracy: 99.060000000%
+Average of last 3 losses is (0.020119228)
+Epoch 10/30: Loss = 0.015989707
+Test Loss: 0.033289156 | Test Accuracy: 99.150000000%
+Average of last 3 losses is (0.017668459)
+Epoch 11/30: Loss = 0.014068006
+Test Loss: 0.039859727 | Test Accuracy: 98.900000000%
+Average of last 3 losses is (0.015967222)
+Epoch 12/30: Loss = 0.011431493
+Test Loss: 0.048515734 | Test Accuracy: 98.830000000%
+Average of last 3 losses is (0.013829735)
+Epoch 13/30: Loss = 0.011393120
+Test Loss: 0.032348054 | Test Accuracy: 99.150000000%
+Average of last 3 losses is (0.012297540)
+Epoch 14/30: Loss = 0.009162705
+Test Loss: 0.036173873 | Test Accuracy: 99.120000000%
+Average of last 3 losses is (0.010662439)
+Epoch 15/30: Loss = 0.009248700
+Test Loss: 0.031940500 | Test Accuracy: 99.100000000%
+Average of last 3 losses is (0.009934842)
+Epoch 16/30: Loss = 0.008516884
+Test Loss: 0.035858138 | Test Accuracy: 99.170000000%
+Average of last 3 losses is (0.008976096)
+Epoch 17/30: Loss = 0.010639180
+Test Loss: 0.035205010 | Test Accuracy: 99.180000000%
+Average of last 3 losses is (0.009468255)
+Epoch 18/30: Loss = 0.009688344
+Test Loss: 0.037211011 | Test Accuracy: 99.070000000%
+Average of last 3 losses is (0.009614803)
+Epoch 19/30: Loss = 0.004890847
+Test Loss: 0.031463313 | Test Accuracy: 99.190000000%
+Average of last 3 losses is (0.008406124)
+Epoch 20/30: Loss = 0.006217597
+Test Loss: 0.037303996 | Test Accuracy: 99.260000000%
+Average of last 3 losses is (0.006932263)
+Epoch 21/30: Loss = 0.005018250
+Test Loss: 0.038660249 | Test Accuracy: 99.200000000%
+Average of last 3 losses is (0.005375565)
+Epoch 22/30: Loss = 0.005886400
+Test Loss: 0.039312149 | Test Accuracy: 99.170000000%
+Average of last 3 losses is (0.005707416)
+Epoch 23/30: Loss = 0.005916182
+Test Loss: 0.035295680 | Test Accuracy: 99.300000000%
+Average of last 3 losses is (0.005606944)
+Epoch 24/30: Loss = 0.005335954
+Test Loss: 0.037142677 | Test Accuracy: 99.180000000%
+Average of last 3 losses is (0.005712845)
+Epoch 25/30: Loss = 0.005712736
+Test Loss: 0.047704230 | Test Accuracy: 99.090000000%
+Average of last 3 losses is (0.005654957)
+Epoch 26/30: Loss = 0.002820387
+Test Loss: 0.053443747 | Test Accuracy: 99.120000000%
+Average of last 3 losses is (0.004623026)
+Epoch 27/30: Loss = 0.006396032
+Test Loss: 0.046614737 | Test Accuracy: 99.070000000%
+Average of last 3 losses is (0.004976385)
+Epoch 28/30: Loss = 0.002018742
+Test Loss: 0.038175672 | Test Accuracy: 99.310000000%
+Average of last 3 losses is (0.003745054)
+Epoch 29/30: Loss = 0.005000783
+Test Loss: 0.056731395 | Test Accuracy: 98.870000000%
+Average of last 3 losses is (0.004471852)
+Epoch 30/30: Loss = 0.007148028
+Test Loss: 0.035021197 | Test Accuracy: 99.210000000%
+Average of last 3 losses is (0.004722518)
+Test Loss: 0.0350 | Test Accuracy: 99.21%
+
+
+
+
+
+
+##################################################################
+
+
+
+Seed number 98782
+LEARNING_RATE:  0.001
+DROPOUT_RATE:  0.0
+WEIGHT_DECAY_RATE:  0.0
+Neurons:  128
+
+
+
+Running experiments on dataset: FashionMNIST
+Dataset: FashionMNIST | Input dim: (1, 28, 28) | Classes: 10
+Train samples: 60000, Test samples: 10000
+
+
+-- Training model with VinayakPatelStandardLinear layer --
+Epoch 1/30: Loss = 1.047297522
+Test Loss: 0.635397251 | Test Accuracy: 76.190000000%
+Epoch 2/30: Loss = 0.499427678
+Test Loss: 0.446537645 | Test Accuracy: 83.670000000%
+Epoch 3/30: Loss = 0.381718424
+Test Loss: 0.368317402 | Test Accuracy: 86.550000000%
+Average of last 3 losses is (0.642814541)
+Epoch 4/30: Loss = 0.320699679
+Test Loss: 0.348813135 | Test Accuracy: 87.340000000%
+Average of last 3 losses is (0.400615260)
+Epoch 5/30: Loss = 0.284097965
+Test Loss: 0.299305228 | Test Accuracy: 89.330000000%
+Average of last 3 losses is (0.328838689)
+Epoch 6/30: Loss = 0.254235934
+Test Loss: 0.281936029 | Test Accuracy: 89.870000000%
+Average of last 3 losses is (0.286344526)
+Epoch 7/30: Loss = 0.231711944
+Test Loss: 0.277648016 | Test Accuracy: 90.250000000%
+Average of last 3 losses is (0.256681947)
+Epoch 8/30: Loss = 0.212488872
+Test Loss: 0.287669055 | Test Accuracy: 89.910000000%
+Average of last 3 losses is (0.232812250)
+Epoch 9/30: Loss = 0.193479492
+Test Loss: 0.256080537 | Test Accuracy: 90.960000000%
+Average of last 3 losses is (0.212560102)
+Epoch 10/30: Loss = 0.175459979
+Test Loss: 0.258639717 | Test Accuracy: 91.180000000%
+Average of last 3 losses is (0.193809448)
+Epoch 11/30: Loss = 0.163836034
+Test Loss: 0.245279885 | Test Accuracy: 91.400000000%
+Average of last 3 losses is (0.177591835)
+Epoch 12/30: Loss = 0.145722399
+Test Loss: 0.266130826 | Test Accuracy: 91.030000000%
+Average of last 3 losses is (0.161672804)
+Epoch 13/30: Loss = 0.136271057
+Test Loss: 0.245406326 | Test Accuracy: 91.780000000%
+Average of last 3 losses is (0.148609830)
+Epoch 14/30: Loss = 0.119384340
+Test Loss: 0.253557919 | Test Accuracy: 91.950000000%
+Average of last 3 losses is (0.133792598)
+Epoch 15/30: Loss = 0.107961252
+Test Loss: 0.263406245 | Test Accuracy: 91.890000000%
+Average of last 3 losses is (0.121205550)
+Epoch 16/30: Loss = 0.095146553
+Test Loss: 0.294759601 | Test Accuracy: 91.370000000%
+Average of last 3 losses is (0.107497382)
+Epoch 17/30: Loss = 0.084827203
+Test Loss: 0.291706450 | Test Accuracy: 91.640000000%
+Average of last 3 losses is (0.095978336)
+Epoch 18/30: Loss = 0.074151934
+Test Loss: 0.291163443 | Test Accuracy: 91.840000000%
+Average of last 3 losses is (0.084708563)
+Epoch 19/30: Loss = 0.066982085
+Test Loss: 0.313586207 | Test Accuracy: 91.810000000%
+Average of last 3 losses is (0.075320407)
+Epoch 20/30: Loss = 0.060631976
+Test Loss: 0.296538151 | Test Accuracy: 92.110000000%
+Average of last 3 losses is (0.067255331)
+Epoch 21/30: Loss = 0.049813244
+Test Loss: 0.327123274 | Test Accuracy: 91.780000000%
+Average of last 3 losses is (0.059142435)
+Epoch 22/30: Loss = 0.049960451
+Test Loss: 0.334472641 | Test Accuracy: 91.780000000%
+Average of last 3 losses is (0.053468557)
+Epoch 23/30: Loss = 0.041775913
+Test Loss: 0.353324313 | Test Accuracy: 91.700000000%
+Average of last 3 losses is (0.047183203)
+Epoch 24/30: Loss = 0.039813135
+Test Loss: 0.367436852 | Test Accuracy: 91.950000000%
+Average of last 3 losses is (0.043849833)
+Epoch 25/30: Loss = 0.034854189
+Test Loss: 0.407038902 | Test Accuracy: 92.010000000%
+Average of last 3 losses is (0.038814412)
+Epoch 26/30: Loss = 0.032724867
+Test Loss: 0.353309495 | Test Accuracy: 91.520000000%
+Average of last 3 losses is (0.035797397)
+Epoch 27/30: Loss = 0.029349587
+Test Loss: 0.412006477 | Test Accuracy: 91.780000000%
+Average of last 3 losses is (0.032309547)
+Epoch 28/30: Loss = 0.028369119
+Test Loss: 0.448053064 | Test Accuracy: 91.030000000%
+Average of last 3 losses is (0.030147858)
+Epoch 29/30: Loss = 0.030100776
+Test Loss: 0.393482616 | Test Accuracy: 91.570000000%
+Average of last 3 losses is (0.029273161)
+Epoch 30/30: Loss = 0.025338820
+Test Loss: 0.374846058 | Test Accuracy: 91.920000000%
+Average of last 3 losses is (0.027936238)
+Test Loss: 0.3748 | Test Accuracy: 91.92%
+
+
+-- Training model with standard layer --
+Epoch 1/30: Loss = 1.028176462
+Test Loss: 0.585914776 | Test Accuracy: 77.600000000%
+Epoch 2/30: Loss = 0.487860112
+Test Loss: 0.446063544 | Test Accuracy: 82.900000000%
+Epoch 3/30: Loss = 0.383162386
+Test Loss: 0.354769340 | Test Accuracy: 87.130000000%
+Average of last 3 losses is (0.633066320)
+Epoch 4/30: Loss = 0.317014689
+Test Loss: 0.331720891 | Test Accuracy: 87.960000000%
+Average of last 3 losses is (0.396012396)
+Epoch 5/30: Loss = 0.279548338
+Test Loss: 0.308901595 | Test Accuracy: 88.760000000%
+Average of last 3 losses is (0.326575138)
+Epoch 6/30: Loss = 0.250106151
+Test Loss: 0.272395629 | Test Accuracy: 90.150000000%
+Average of last 3 losses is (0.282223059)
+Epoch 7/30: Loss = 0.223461018
+Test Loss: 0.266366085 | Test Accuracy: 90.440000000%
+Average of last 3 losses is (0.251038502)
+Epoch 8/30: Loss = 0.200561735
+Test Loss: 0.258106173 | Test Accuracy: 90.910000000%
+Average of last 3 losses is (0.224709634)
+Epoch 9/30: Loss = 0.184859309
+Test Loss: 0.274674587 | Test Accuracy: 90.780000000%
+Average of last 3 losses is (0.202960687)
+Epoch 10/30: Loss = 0.169433841
+Test Loss: 0.241137759 | Test Accuracy: 91.450000000%
+Average of last 3 losses is (0.184951628)
+Epoch 11/30: Loss = 0.148885560
+Test Loss: 0.260447676 | Test Accuracy: 90.900000000%
+Average of last 3 losses is (0.167726237)
+Epoch 12/30: Loss = 0.138932197
+Test Loss: 0.254067932 | Test Accuracy: 91.620000000%
+Average of last 3 losses is (0.152417199)
+Epoch 13/30: Loss = 0.122290602
+Test Loss: 0.257882768 | Test Accuracy: 91.640000000%
+Average of last 3 losses is (0.136702787)
+Epoch 14/30: Loss = 0.108429203
+Test Loss: 0.300862188 | Test Accuracy: 90.660000000%
+Average of last 3 losses is (0.123217334)
+Epoch 15/30: Loss = 0.097921391
+Test Loss: 0.278239876 | Test Accuracy: 91.780000000%
+Average of last 3 losses is (0.109547065)
+Epoch 16/30: Loss = 0.086436862
+Test Loss: 0.312661762 | Test Accuracy: 90.700000000%
+Average of last 3 losses is (0.097595818)
+Epoch 17/30: Loss = 0.075086302
+Test Loss: 0.309274420 | Test Accuracy: 91.260000000%
+Average of last 3 losses is (0.086481518)
+Epoch 18/30: Loss = 0.070560407
+Test Loss: 0.299211124 | Test Accuracy: 91.710000000%
+Average of last 3 losses is (0.077361190)
+Epoch 19/30: Loss = 0.058952164
+Test Loss: 0.363044714 | Test Accuracy: 90.540000000%
+Average of last 3 losses is (0.068199624)
+Epoch 20/30: Loss = 0.053861838
+Test Loss: 0.337743660 | Test Accuracy: 91.320000000%
+Average of last 3 losses is (0.061124803)
+Epoch 21/30: Loss = 0.045122723
+Test Loss: 0.345659712 | Test Accuracy: 91.780000000%
+Average of last 3 losses is (0.052645575)
+Epoch 22/30: Loss = 0.043501557
+Test Loss: 0.376280714 | Test Accuracy: 91.210000000%
+Average of last 3 losses is (0.047495373)
+Epoch 23/30: Loss = 0.040894732
+Test Loss: 0.360585832 | Test Accuracy: 91.210000000%
+Average of last 3 losses is (0.043173004)
+Epoch 24/30: Loss = 0.038115201
+Test Loss: 0.381993825 | Test Accuracy: 91.880000000%
+Average of last 3 losses is (0.040837163)
+Epoch 25/30: Loss = 0.031207590
+Test Loss: 0.397248246 | Test Accuracy: 91.020000000%
+Average of last 3 losses is (0.036739174)
+Epoch 26/30: Loss = 0.030449840
+Test Loss: 0.428540915 | Test Accuracy: 91.230000000%
+Average of last 3 losses is (0.033257544)
+Epoch 27/30: Loss = 0.030830357
+Test Loss: 0.435876923 | Test Accuracy: 90.760000000%
+Average of last 3 losses is (0.030829263)
+Epoch 28/30: Loss = 0.027725059
+Test Loss: 0.414849199 | Test Accuracy: 91.660000000%
+Average of last 3 losses is (0.029668419)
+Epoch 29/30: Loss = 0.024611593
+Test Loss: 0.442030739 | Test Accuracy: 91.740000000%
+Average of last 3 losses is (0.027722336)
+Epoch 30/30: Loss = 0.024004571
+Test Loss: 0.464060706 | Test Accuracy: 91.830000000%
+Average of last 3 losses is (0.025447074)
+Test Loss: 0.4641 | Test Accuracy: 91.83%
+
+
+
